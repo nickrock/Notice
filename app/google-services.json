@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "345489425516",
+    "firebase_url": "https://noice-bcf24.firebaseio.com",
+    "project_id": "noice-bcf24",
+    "storage_bucket": "noice-bcf24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345489425516:android:ff85fc79a68777c8",
+        "android_client_info": {
+          "package_name": "com.example.srk.noice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345489425516-gm82m2er0migrd8l72hdfcdtnfqeh055.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.srk.noice",
+            "certificate_hash": "ad4b3a308efe60b27d6fe4bf807e9cc6de008234"
+          }
+        },
+        {
+          "client_id": "345489425516-3u251dd6ff02t5pi2sdbi4t6qc2mu9ni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3mxRVC1aR8mDl2MS0wZ7Jnqv4da826lw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345489425516-3u251dd6ff02t5pi2sdbi4t6qc2mu9ni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

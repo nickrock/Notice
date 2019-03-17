@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_admin"
+            android:icon="@drawable/account"
+            android:title="Admin" />
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@drawable/accountt"
+            android:title="User" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_chatbot"
+                android:icon="@drawable/mic"
+                android:title="ChatBot" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_sms"
+                android:icon="@drawable/sms"
+                android:title="Contact US" />
+            <item
+                android:id="@+id/nav_view"
+                android:icon="@drawable/view"
+                android:title="View Register" />
+
+        </menu>
+    </item>
+
+    <item android:title="End">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/mic"
+                android:title="Logout" />
+
+
+
+        </menu>
+
+    </item>
+
+</menu>

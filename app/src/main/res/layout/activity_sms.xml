@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+
+    android:background="@drawable/navbg"
+    android:orientation="vertical">
+
+
+    <TextView
+
+        android:id="@+id/text"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="Complete the fields to contact us"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+
+        android:id="@+id/phoneNumber"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="37dp"
+        android:ems="10"
+        android:hint="ex: 1234567890"
+        android:inputType="phone" />
+
+
+    <EditText
+
+        android:id="@+id/smsBody"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="80dp"
+
+        android:layout_above="@+id/smsSIntent"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-178dp"
+        android:hint="Write your sms here...." />
+
+
+    <Button
+
+        android:id="@+id/smsSIntent"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="178dp"
+        android:onClick="sendSmsByVIntent1"
+        android:text="Send SMS"
+        android:background="@color/colorAccent2"/>
+
+    <EditText
+        android:id="@+id/to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+android:hint="To"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/to"
+        android:ems="10"
+        android:hint="Subject"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/message1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/subject"
+        android:ems="10"
+        android:hint="Message"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/gmail"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/message1"
+        android:layout_marginStart="0dp"
+        android:text=" Send EMAIL"
+        android:background="@color/colorAccent2"/>
+
+    <ImageButton
+        android:id="@+id/map"
+        android:layout_width="41dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/gmail"
+        android:background="#f6fe97"
+        android:onClick="map"
+        app:srcCompat="@drawable/map1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gmail"
+        android:layout_toEndOf="@+id/map"
+        android:text="Address:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/gmail"
+        android:layout_marginEnd="32dp"
+        android:text="Jain College Of  Engineering"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="23dp"
+        android:layout_height="28dp"
+        android:layout_alignStart="@+id/sam"
+        android:layout_below="@+id/gmail"
+        android:background="@android:color/holo_orange_light"
+        app:srcCompat="@drawable/jgi" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"
+        android:text="Contact No:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/sam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginStart="108dp"
+        android:text="7829077989"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/nik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginEnd="75dp"
+        android:text="7019122119"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="26dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/map"
+        android:layout_toEndOf="@+id/textView5"
+        app:srcCompat="@drawable/phone" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="26dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/map"
+        android:layout_marginEnd="143dp"
+        app:srcCompat="@drawable/phone" />
+
+</RelativeLayout>
